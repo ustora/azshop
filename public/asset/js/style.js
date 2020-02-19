@@ -1,5 +1,15 @@
 $(function () {
   new WOW().init();
+
+  $('#openNav').click(function (e) { 
+    e.preventDefault();
+    $('.sidenav').addClass('active-nav');
+  });
+  $('#closeNav').click(function (e) { 
+    e.preventDefault();
+    $('.sidenav').removeClass('active-nav');
+  });
+
   $('#content .product-container .product-image .quickview a').click(function (e) {
     e.preventDefault();
 
