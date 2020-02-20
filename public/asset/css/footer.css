@@ -29,4 +29,7 @@
 @media (max-width: 768px){
   #content #slider{display: none;}
 }
+@media (max-width: 468px){
+  #header #header-top ul li a{font-size: 0.5em;}
+}
 

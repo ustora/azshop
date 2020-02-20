@@ -1,0 +1,891 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Product</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,700italic,700,400italic,300italic,300'
+        rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/asset/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/asset/css/reset.css">
+    <link rel="stylesheet" href="public/lib/css/animate.css">
+    <link rel="stylesheet" href="public/lib/css/swiper.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div id="header">
+        <!-- header top -->
+        <div id="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-3 order-0 order-lg-0">
+                        <a href="index.html">
+                            <img src="images/logo.webp" alt="Logo" class="logo img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-12 order-2 order-lg-0">
+                        <form action="" class="form-search mt-4 mt-lg-0">
+                            <input type="text" class="form-control" placeholder="Search our store">
+                            <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-9 order-1 order-lg-0">
+                        <ul class="d-flex justify-content-lg-end align-items-center h-100 justify-content-center ">
+                            <li><a href="login.html">Login</a></li>
+                            <li>/</li>
+                            <li><a href="register.html">Create an account</a></li>
+                            <li>/</li>
+                            <li><a href="" id="openNav">My Cart</a></li>
+                        </ul>
+                        <ul class="sidenav">
+                            <li>
+                                <h2 class="float-left">Shopping cart</h2> <a href=""><i
+                                        class="fa fa-times float-right fa-2x" id="closeNav" aria-hidden="true"></i></a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <a href="">
+                                            <img src="images/p1.webp" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="pro-nav-name">
+                                            <a href="">Cell Phone , 5.5" Android Smartphone with 4gb Micro Sd Card</a>
+                                        </div>
+                                        <div class="pro-nav-price text-right mt-4 text-danger">$199.00</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="row">
+                                    <div class="col-6">Subtotal</div>
+                                    <div class="col-6 text-right">$796.00</div>
+                                </div>
+                            </li>
+                            <li>Shipping & taxes calculated at checkout</li>
+                            <li>
+                                <a href="checkout.html">
+                                    <button class="btn btn-outline-danger btn-block">
+                                        CHECKOUT
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header top -->
+        <hr>
+
+        <!-- header bot -->
+        <div id="header-bot">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container">
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Catalog</a>
+                                <div class="dropdown-menu bg-menu" aria-labelledby="dropdownId">
+                                    <ul>
+                                        <li><a class="dropdown-item" href="product.html">Tablets</a></li>
+                                        <li><a class="dropdown-item" href="product.html">Laptop</a></li>
+                                        <li><a class="dropdown-item" href="product.html">Camera</a></li>
+                                        <li><a class="dropdown-item" href="product.html">Desktop</a></li>
+                                        <li><a class="dropdown-item" href="product.html">Smart Phones</a></li>
+                                        <li><a class="dropdown-item" href="product.html">All product</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-static">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">News</a>
+                                <div class="dropdown-menu w-75 bg-menu" aria-labelledby="dropdownId">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-12 col-md-6 col-sm-6 mb-3 mb-lg-0">
+                                            <h2>What's news</h2>
+                                            <ul>
+                                                <li><a href="product.html" class="dropdown-item">Best Seller</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Featured Products</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Most Viewed</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Sales</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Shop All</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-12 col-md-6 col-sm-6 mb-3 mb-lg-0">
+                                            <h2>Trends & event</h2>
+                                            <ul>
+                                                <li><a href="product.html" class="dropdown-item">Camera</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Smart Phones</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Desktop</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Laptop</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Tablet</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-12 col-md-6 col-sm-6 mb-3 mb-lg-0">
+                                            <h2>Custom link</h2>
+                                            <ul>
+                                                <li><a href="" class="dropdown-item">Search</a></li>
+                                                <li><a href="" class="dropdown-item">Wishlist</a></li>
+                                                <li><a href="" class="dropdown-item">About us</a></li>
+                                                <li><a href="" class="dropdown-item">Contact us</a></li>
+                                                <li><a href="" class="dropdown-item">Help center</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-12 col-md-6 col-sm-6 mb-3 mb-lg-0">
+                                            <h2>Quick link</h2>
+                                            <ul>
+                                                <li><a href="product.html" class="dropdown-item">All product</a></li>
+                                                <li><a href="" class="dropdown-item">Shipping</a></li>
+                                                <li><a href="" class="dropdown-item">Wishlist</a></li>
+                                                <li><a href="" class="dropdown-item">Cart page</a></li>
+                                                <li><a href="" class="dropdown-item">Search page</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">Sale</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <!-- end header bot -->
+    </div>
+    <!-- end header -->
+
+    <!-- content -->
+    <div id="content">
+        <div id="main">
+            <!-- breadcumb -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="breadcrumb pl-0">
+                            <a class="breadcrumb-item" href="index.html">Home</a>
+                            <span class="breadcrumb-item active">Product</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- end breadcumb -->
+
+            <div class="side">
+                <div class="container">
+                    <div class="row bg-white py-4">
+                        
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInLeft">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInUp" data-wow-delay=".1s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInRight" data-wow-delay=".2s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                              
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInLeft" data-wow-delay=".3s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                       
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInUp" data-wow-delay=".4s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                          
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInRight" data-wow-delay=".5s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInLeft" data-wow-delay=".6s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                       
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInUp" data-wow-delay=".7s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                          
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 wow bounceInRight" data-wow-delay=".8s">
+                                    <div class="product-container">
+                                        <div class="product-image">
+                                            <div class="product-thumb">
+                                                <a href="">
+                                                    <img src="images/m8.jpg" class="img-fluid" alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="quickview" data-toggle="modal" data-target="#modelId">
+                                                <a href="">Quick View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-meta">
+                                            <div class="group-product">
+                                                <div class="product-name">
+                                                    <h4><a href="">
+                                                            Fire Tablet, 7" Display, Wi-Fi, 8 GB - Includes Special
+                                                            Offers
+                                                        </a></h4>
+                                                </div>
+                                                <div class="product-rate">
+                                                    <div class="text-dark">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price">
+                                                    <div class="text-danger">$390.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-action">
+                                                <form action="" class="add-to-cart">
+                                                    <a href="">
+                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                                    </a>
+                                                </form>
+                                                <a href="" class="heart">
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="" class="info border-right-0">
+                                                    <i class="fa fa-info" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <!-- categories -->
+                            <div class="categories mb-5">
+                                <h2 class="title wow bounceIn">Categories
+                                    <div class="icon-star"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                                </h2>
+                                <ul class="text-left mt-5 pr-4 wow zoomIn">
+                                    <li><a href="product.html">Best Sellers <span>10</span></a></li>
+                                    <li><a href="product.html">Cameras <span>10</span></a></li>
+                                    <li><a href="product.html">Smart Phones <span>10</span></a></li>
+                                    <li><a href="product.html">Desktops <span>10</span></a></li>
+                                    <li><a href="product.html">Featured Products <span>10</span></a></li>
+                                    <li><a href="product.html">Home Audio <span>10</span></a></li>
+                                    <li><a href="product.html">Laptop <span>10</span></a></li>
+                                    <li><a href="product.html">Most Viewed <span>10</span></a></li>
+                                    <li><a href="product.html">New Arrivals <span>10</span></a></li>
+                                    <li><a href="product.html">Sale <span>10</span></a></li>
+                                    <li><a href="product.html">Tablets <span>10</span></a></li>
+                                </ul>
+                            </div>
+                            <!-- end categories -->
+
+                            <!-- filter -->
+                            <div class="recent text-center">
+                                <h2 class="title wow bounceIn">Filters by
+                                    <div class="icon-star"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                                </h2>
+                                <ul class="text-left mt-5 pr-4 wow zoomIn">
+                                    <li>
+                                        <a href="" class="name-news">MORBI FRINGILLA VITAE ORCI CONVALLIS
+                                            CONDIMENTUM</a>
+                                        <div class="date-news">June 01, 2016 </div>
+                                    </li>
+                                    <li>
+                                        <a href="" class="name-news">LOREM CONDIMENTUM ORNARE</a>
+                                        <div class="date-news">June 01, 2016 </div>
+                                    </li>
+                                    <li>
+                                        <a href="" class="name-news">FUSCE LAOREET NIBH FELIS PORTTITOR LAOREET</a>
+                                        <div class="date-news">June 01, 2016 </div>
+                                    </li>
+                                    <li>
+                                        <a href="" class="name-news">VESTIBULUM LACINIA MASSA A COMMODO HABITASSE</a>
+                                        <div class="date-news">June 01, 2016 </div>
+                                    </li>
+                                    <li>
+                                        <a href="" class="name-news">MORBI FRINGILLA VITAE ORCI CONVALLIS
+                                            CONDIMENTUM</a>
+                                        <div class="date-news">June 01, 2016 </div>
+                                    </li>
+                                    <li>
+                                        <a href="" class="name-news">First post</a>
+                                        <div class="date-news">June 01, 2016 </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end article -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end content -->
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 pr-0">
+                    <div class="footer-left">
+                        <!-- top footer -->
+                        <div class="top-footer">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a href="">
+                                        <img src="images/footer_image.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end top footer -->
+
+                        <!-- bot footer -->
+                        <div class="bot-footer">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                                    <h2>Account</h2>
+                                    <ul>
+                                        <li><a href="">wishlist</a></li>
+                                        <li><a href="">your cart</a></li>
+                                        <li><a href="">checkout</a></li>
+                                        <li><a href="">login</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                                    <h2>infomations</h2>
+                                    <ul>
+                                        <li><a href="">about us</a></li>
+                                        <li><a href="">jobs</a></li>
+                                        <li><a href="">sitemap</a></li>
+                                        <li><a href="">contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                                    <h2>quick link</h2>
+                                    <ul>
+                                        <li><a href="">All products</a></li>
+                                        <li><a href="">shipping</a></li>
+                                        <li><a href="">wishlist</a></li>
+                                        <li><a href="">cart page</a></li>
+                                        <li><a href="">Search page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-5 col-md-12 mb-4 mb-lg-0 col-sm-6">
+                                    <h2>sign up for newsletter</h2>
+                                    <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                                    </p>
+                                    <form action="" class="subscribe mt-4 position-relative">
+                                        <input type="text" name="" id="" class="form-control"
+                                            placeholder="Enter your email...">
+                                        <button type="submit" class="btn btn-danger">subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end bot footer -->
+                    </div>
+                </div>
+                <div class="col-lg-3 px-0 py-5 py-lg-0">
+                    <div class="contact-footer">
+                        <div class="about">
+                            <a href="">
+                                <img src="images/footer_logo.png" alt="" class="img-fluid">
+                            </a>
+                            <p>Mauris in erat justo. Nullam ac urna efelis dapibus condimentum sit amet a augue. Sed non
+                                neque elit. Sed ut imperdiet nisi.</p>
+                            <ul>
+                                <li><i class="fa fa-home" aria-hidden="true"></i> Nha Trang University</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i> 038.9747.179</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> longdang0412@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- copy -->
+            <div id="cp-right" class="pt-5 text-center">
+                <p class="mb-3">Copyright 2020 Powered by Test</p>
+                <p>All Rights Reserved.</p>
+            </div>
+            <!-- end cp right -->
+        </div>
+    </div>
+    <!-- end footer -->
+
+
+ <!-- Modal -->
+ <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-6">
+                        <div class="swiper-container gallery-top">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(images/p1.webp)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/q1.webp)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/q2.webp)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/q3.webp)"></div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(images/p1.webp)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/q1.webp)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/q2.webp)"></div>
+                                <div class="swiper-slide" style="background-image:url(images/q3.webp)"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 modal-info col-6">
+                        <h2 class="pro-name">
+                            <a href="">Canon EOS Rebel G Film SLR Camera</a>
+                        </h2>
+                        <p class="my-4 pro-price">$390.00 USD</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur culpa
+                            vitae amet odio mollitia totam praesentium sit odit fugiat, consectetur nemo ratione
+                            recusandae assumenda minima aspernatur quas quia similique.</p>
+                        <a href="">
+                            <button class="btn btn-danger my-3">add to cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="public/asset/js/jquery.min.js"></script>
+    <script src="public/asset/js/popper.min.js"></script>
+    <script src="public/asset/js/bootstrap.min.js"></script>
+    <script src="public/asset/js/style.js"></script>
+    <script src="public/lib/js/wow.js"></script>
+    <script src="public/lib/js/swiper.min.js"></script>
+</body>
+
+</html>

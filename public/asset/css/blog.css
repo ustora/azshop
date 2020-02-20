@@ -1,0 +1,23 @@
+#content .side .categories ul li a,
+#content .side .recent ul li a{text-decoration: none; color: #666; font-weight: 300; font-size: 14px; line-height: 40px;}
+#content .side .categories ul li,
+#content .side .recent ul li{padding-left: 30px;}
+#content .side .categories ul li span,
+#content .side .recent ul li span{float: right;}
+#content .side .categories a:hover,
+#content .side .recent a:hover{color: #ee2f2f;}
+#content a.name-news{line-height: 26px; margin-bottom: 10px; display: block; font-size: 14px;}
+#content .side .date-news{color: #999; font-size: 13px;}
+#content .side .recent li{margin-bottom: 30px;}
+#content .side .recent ul li a{line-height: 24px;}
+#content .main-blog{padding: 0px 30px;}
+#content h1{text-transform: uppercase; font-weight: 900; font-size: 24px; padding-bottom: 15px; padding-left: 30px;}
+#content .main-blog .name-news{text-decoration: none; font-size: 21px; font-weight: 600; color: #666;}
+#content .main-blog .name-news:hover{color: #ee2f2f;}
+#content .main-blog .author{margin: 25px 0px; font-size: 17px; color: #888;}
+#content .main-blog .desc-blog{margin: 25px 0px; line-height: 28px; color: #777;}
+#content .main-blog .btn{font-weight: 900; text-transform: uppercase; font-size: 15px;}
+#content .main-blog .btn:hover{background-color: #000;}
+#content .main-blog .read{border-bottom: 1px solid #e1e1e1; padding-bottom: 30px;}
+#content .page-item.active .page-link{background-color: #ee2f2f !important; border: 1px solid #ee2f2f; color: #fff;}
+#content .page-item .page-link{color: #666;}

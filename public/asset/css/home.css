@@ -25,15 +25,15 @@
 
     /* new arrival */
     #content #main-content{background-color: #f8f8f8; padding: 20px;} 
-    #content #main-content h2.title, #content .last-update h2.title{text-transform: uppercase; font-weight: 900; font-size: 24px; position: relative; display: inline-block;}
-    #content #main-content h2.title::before, #content .last-update h2.title::before{content: ""; position: absolute; background-color: #ee2f2f; width: 100%; height: 5px; bottom: -10px; left: 0;}
-    #content #main-content .icon-star .fa, #content .last-update .icon-star .fa{position: absolute; left: 50%; transform: translateX(-50%); bottom: -20px; background-color: #ffffff; width: 50px;}
+    #content h2.title, #content .last-update h2.title{text-transform: uppercase; font-weight: 900; font-size: 24px; position: relative; display: inline-block;}
+    #content h2.title::before, #content .last-update h2.title::before{content: ""; position: absolute; background-color: #ee2f2f; width: 100%; height: 5px; bottom: -10px; left: 0;}
+    #content .icon-star .fa, #content .last-update .icon-star .fa{position: absolute; left: 50%; transform: translateX(-50%); bottom: -20px; background-color: #ffffff; width: 50px;}
     #content .main{background-color: #ffffff;}
     #content .product-container{position: relative; border: 1px solid #e1e1e1;}
     #content .product-container .product-image{position: relative; overflow: hidden;}
     #content .product-container .product-image .product-thumb{position: relative;}
     #content .product-container .product-image .quickview{position: absolute; top: 50%; left: 50%; background-color: #ee2f2f; padding: 15px; transform: scale(0);}
-    #content .product-container .product-image .quickview a{text-decoration: none; color: #fff; font-weight: 900; font-size: 13px;}
+    #content .product-container .product-image .quickview a{text-decoration: none; color: #fff; font-weight: 900; font-size: 12px;}
     #content .product-container .product-image .quickview:hover{background-color: black; transition: all 0.5s;}
     #content .product-container .product-meta{width: 100%; display: inline-block; text-align: left;}
     #content .product-container .product-meta .group-product{padding: 13px 20px 20px;}
