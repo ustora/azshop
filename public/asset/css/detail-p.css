@@ -1,0 +1,8 @@
+#content .info-product h1{font-size: 1.5em; font-weight: normal; padding: 20px 0px;}
+#content .desc-product{line-height: 28px; color: #888;}
+#content .info-product .price-product{color: #ee2f2f; font-weight: 600; padding: 20px 0px; font-size: 20px;}
+#content .info-product .btn{text-transform: uppercase; font-weight: 600; margin-right: 20px; background-color: #ee2f2f;}
+#content .info-product .btn:hover{background-color: black;}
+#content .side .nav-item .nav-link{text-transform: uppercase; color: #888;}
+#content .side .nav-item .nav-link.active{color: #000; font-weight: 600; border: 1px solid #000;}
+#content .side  h2{text-transform: uppercase; color: #000; font-weight: 600; margin-top: 1rem; margin-bottom: 1rem;}

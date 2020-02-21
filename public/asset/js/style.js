@@ -1,11 +1,11 @@
 $(function () {
   new WOW().init();
 
-  $('#openNav').click(function (e) { 
+  $('#openNav').click(function (e) {
     e.preventDefault();
     $('.sidenav').addClass('active-nav');
   });
-  $('#closeNav').click(function (e) { 
+  $('#closeNav').click(function (e) {
     e.preventDefault();
     $('.sidenav').removeClass('active-nav');
   });
@@ -52,7 +52,7 @@ $(function () {
         spaceBetween: 20,
       },
       640: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
       768: {
@@ -160,15 +160,15 @@ $(function () {
   //   clearInterval(modal);
   // },2000)
 
-   // swiper quickview
+  // swiper quickview
 
-   var sliderThumbnail = new Swiper('.slider-thumbnail', {
+  var sliderThumbnail = new Swiper('.slider-thumbnail', {
     slidesPerView: 4,
     freeMode: true,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
   });
-  
+
   var slider = new Swiper('.slider', {
     navigation: {
       nextEl: '.swiper-button-next',
@@ -176,6 +176,19 @@ $(function () {
     },
     thumbs: {
       swiper: sliderThumbnail
+    }
+  });
+
+  
+
+  $('.add').click(function () {
+    if ($(this).prev().val() < 100) {
+      $(this).prev().val(+$(this).prev().val() + 1);
+    }
+  });
+  $('.sub').click(function () {
+    if ($(this).next().val() > 1) {
+      if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
     }
   });
 

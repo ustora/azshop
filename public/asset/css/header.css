@@ -1,16 +1,24 @@
 body{font-size: 16px; font-family: "proxima-nova", sans-serif; color: #666; font-weight: 400; box-sizing: border-box; font-style: normal;}
 html, body{position: relative; height: 100%;}
 .bg-menu{background-color: #222;}
-input:focus{outline: 0px !important; -webkit-appearance:none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+textarea:focus, input:focus{
+    outline: none;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
 .swiper-container{width: 100%;}
-.swiper-container.slider{height: 80vh;}
-.swiper-container.slider-thumbnail{height: 20vh;}
-.swiper-container.slider-thumbnail .swiper-slide{width: 33%; height: 100%; opacity: 0.5; overflow: hidden;}
+.swiper-container.slider{height: 80%;}
+.swiper-container.slider-thumbnail{height: 20%;}
+.swiper-container.slider-thumbnail .swiper-slide{width: 33%; height: 100%; opacity: 0.5;}
 .swiper-container.slider-thumbnail .swiper-slide.swiper-slide-thumb-active{opacity: 1;}
 
 /* header */
     /* header top */
     #header #header-top{padding: 25px 0px;}
+    #header #header-top .form-control{border-radius: 0;}
     #header #header-top .form-search{width: 100%; position: relative;}
     #header #header-top .form-search a{text-decoration: none; color: #000; position: absolute; top: 10px; right: 15px;}
     #header #header-top ul li{padding-left: 15px;}

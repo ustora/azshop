@@ -1,0 +1,22 @@
+#content table{border: 1px solid #ccc; border-collapse: collapse; margin: 0; padding: 0; width: 100%; table-layout: fixed;}
+#content table caption{font-size: 1.5em; margin: .5em 0 .75em;}
+#content table tr{background-color: #fff; border: 1px solid #ddd; padding: .35em;}
+#content table th, table td{padding: .625em; text-align: left; vertical-align: middle;}
+#content table th{font-size: .85em; letter-spacing: .1em; text-transform: uppercase;}
+#content table td img:nth-child(1){width: 100%; height: auto;}
+#content table caption{padding-top: .75rem; padding-bottom: .75rem; color: #6c757d; text-align: left; caption-side: top;}
+#content table input{width: 40px;}
+#content .total .subtotal{font-size: 19px; color: #777;}
+#content .total .price{font-size: 21px; color: black; font-weight: 800; margin-left: 16px;}
+#content .total .btn{width: 150px; margin-top: 20px; text-transform: uppercase; font-weight: 700; border-radius: 0; font-size: 15px;}
+#content .total .btn.btn-danger:hover{background-color: black;}
+/* #content table #field1 input{width: ;} */
+@media screen and (max-width: 1024px){
+    #content table{border: 0;}
+    #content table caption{font-size: 1.3em;}
+    #content table thead{border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+    #content table tr{border-bottom: 3px solid #ddd; display: block; margin-bottom: .625em;}
+    #content table td{border-bottom: 1px solid #ddd; display: block; font-size: .8em; text-align: right;}
+    #content table td::before{content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase;}
+    #content table td:last-child{border-bottom: 0;}
+}

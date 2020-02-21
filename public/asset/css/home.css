@@ -19,7 +19,7 @@
     #content #category{border-bottom: 1px solid #e1e1e1; border-top: 1px solid #e1e1e1;}
     #content #category .title h2{color: #000; font-weight: 800; font-size: 15px; padding-bottom: 10px;}
     #content #category .title p{font-style: italic; color: #999999; font-size: 14px;}
-    #content #category .btn{background-color: #ee2f2f; border-radius: 0;}
+    #content #category .btn{background-color: #ee2f2f; border-radius: 0; text-transform: uppercase; font-weight: 700; font-size: 13px;}
     #content #category .btn:hover{background-color: #000;}
     /* end categories */
 
